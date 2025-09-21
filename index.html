@@ -8,6 +8,35 @@
 </head>
 <body>
     
-    
+    <div class="container">
+         <h1>Quiz App</h1>
+        <div class="quiz-container">
+
+            <!-- this is a question container -->
+            <div id="question-container" class="hidden">
+                    <h2 id="question-text"></h2>
+                    <ul id="choice-list">
+                       <li>fuck you</li> <!-- choice will be added dynaamically here -->
+                       <li>fuck you</li> <!-- choice will be added dynaamically here -->
+                       <li>fuck you</li> <!-- choice will be added dynaamically here -->
+                    </ul>
+                    <button id="next-btn", class="hidden">Next question</button>
+            </div>
+         
+            <!-- this is result container -->
+             <div id="result-container" class="hidden">
+                     
+                <h2>Your Score:</h2>
+                <p id="next-btn">3/10</p>
+                <button id="restart-btn">Restart Quiz</button>
+
+             </div>
+
+            <!-- this is a button to start and restart the quiz -->
+              <button id="start-btn" class="">Start Quiz</button>
+
+        </div>
+    </div>
+   <script src="app.js"></script>
 </body>
 </html>
